@@ -1,0 +1,16 @@
+{
+  "name": "edatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:clients": "cd clients && npm install",
+    "install:bills": "cd bills && npm install",
+    "install:orders": "cd orders && npm install",
+    "install:gateway": "cd apiGateway && .\\venv\\Scripts\\activate && pip install --no-cache-dir -r requirements.txt",
+    "install:all": "npm run install:clients && npm run install:bills && npm run install:orders && npm run install:gateway"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

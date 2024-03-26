@@ -1,0 +1,9 @@
+# IDE and Editor folders
+.vscode/
+
+# Node dependencies
+node_modules/
+
+# Python virtual environment
+venv*/
+__pycache__
